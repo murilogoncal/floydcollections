@@ -1,0 +1,149 @@
+body{
+  margin-left:80px;
+    margin:0px;
+    font-family: 'lato', sans-serif;
+ 
+
+
+  
+}
+
+h1{
+    text-align: center;
+    color:white;
+ 
+    margin:-70px;
+  
+    text-shadow:1px 1px 7px rgb(194, 192, 192);
+}
+
+.home{
+    width:85px;
+    margin:15px;
+    display: inline-block;
+}
+
+.eu{
+    width:85px;
+    margin:15px;
+    display: inline-block;
+    float: right;
+    border-radius: 50%;
+
+}
+
+.fundo{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+
+header{ 
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height:114px;
+}
+
+
+footer{
+    margin:0px;
+    widows: 100%;
+    height:110px;
+    background-color: rgb(26, 50, 51);
+    color:white;
+    text-align: center;
+}
+
+b{
+    margin:10px;
+}
+
+
+.galeria{
+   
+
+    
+    width:100%;
+    display: flex;
+    flex-flow: row wrap;
+  
+    background-image: linear-gradient(#4f4c4c, rgb(169, 166, 166));
+   
+
+}
+
+.galeria div{
+   
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+
+    margin-left:90px;
+    margin:36px;
+    padding: 10px;
+    font-size: 10px;
+    border-radius:10px;
+    box-shadow:2px 2px 10px rgb(160, 157, 157);
+   
+
+   
+
+    
+}
+
+.capa{
+    width: 200px;
+    height: 200px;
+    transition: all 0.2s linear;
+    
+}
+
+.efeito{
+    transition: all 0.2s linear;
+}
+
+.capa:hover{
+    width: 203px;
+    height: 203px;
+    background-color: rgb(80, 15, 63);
+    box-shadow:4px 4px 15px rgb(160, 157, 157);
+}
+
+    .efeito:hover{
+        width: 203px;
+        height: 203px;
+        background-color: rgb(80, 15, 63);
+        box-shadow:4px 4px 15px rgb(160, 157, 157);
+
+    } 
+
+
+
+
+
+
+/* 
+###########################################PARA CELULAR############################################################# */
+
+
+@media only screen and (max-width: 360px) {
+    h1{
+      font-size: 9px ;
+    
+    
+       
+    }
+      
+}
+
+@media only screen and (max-width: 360px) {
+    .home, .eu{
+width:60px;
+       
+    }
+      
+}
+

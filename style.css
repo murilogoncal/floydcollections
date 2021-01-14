@@ -1,0 +1,274 @@
+body{
+  
+    margin: 0px;
+    background-color: rgb(51, 47, 46);
+    font-family: 'lato', sans-serif;
+  
+}
+
+h1{
+    color:white;
+    margin:-10px;
+    margin-right:50px;
+    text-shadow:1px 1px 7px rgb(194, 192, 192);
+
+
+}
+
+.go_home{
+    width:60px;
+    margin:12px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.fundo{
+
+ 
+
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.banner{
+    margin:5px;
+    height:104px;
+    width:212px;
+    float: right;
+   border-radius: 16px; 
+}
+
+header{ 
+   
+    background-color: black;
+    width: 100%;
+    height:114px;
+}
+
+.faixas{
+    position: static;
+   background-image: linear-gradient(#cccccc, rgb(80, 68, 68));
+   
+  display: inline-block; 
+
+   width: 400px;
+   margin-right:40px;
+   margin:25px;
+   padding-top: -10px;
+   height:100%;
+   padding: 5px;
+   border-radius: 5px;
+ 
+}
+
+
+audio{
+  
+    width:94%;
+}
+
+.capa{
+    width:600px;
+    height:600px;
+    float: right;
+    margin:35px;
+    border-radius: 8px;
+    border: 6px solid rgb(98, 96, 96); 
+    box-shadow: 5px 5px 8px rgb(104, 104, 103);
+}
+
+
+
+
+
+footer{
+    margin:0px;
+    widows: 100%;
+    height:110px;
+    background-color: rgb(26, 50, 51);
+    color:white;
+    text-align: center;
+}
+
+b{
+    margin:10px;
+}
+/* 
+###########################################PARA CELULAR############################################################# */
+@media only screen and (max-width: 640px) {
+.go_home{
+    width:40px;
+    margin:10px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 360px) {
+.go_home{
+    width:50px;
+    margin:11px;
+    display: inline-block;
+}
+}
+
+
+
+@media only screen and (max-width: 360px) {
+
+h1{
+    color:white;
+    margin-left: 290px;
+    font-size: 10px;
+}
+}
+
+
+@media only screen and (max-width: 640px) {
+
+    h1{
+        color:white;
+        margin-left: 290px;
+        font-size: 14px;
+        float:right;
+        margin:12px;
+    }
+    }
+
+
+@media only screen and (max-width: 360px) {
+    body {
+        width: 100%;
+      background-color: rgb(51, 47, 46);;
+
+scroll-margin: 10px;
+
+      
+    font-family: 'lato', sans-serif;
+    }
+  
+}
+
+@media only screen and (max-width: 360px) {
+.fundo{
+margin:0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding:0px;
+}
+  
+}
+
+
+@media only screen and (max-width: 360px) {
+header{ 
+  
+
+    background-repeat:no-repeat;
+    background-color: black;
+    width: 98.4%;
+    height:115px;
+}
+  
+}
+
+@media only screen and (max-width: 360px) {
+.faixas{
+    width: 71%;
+  display: inline-block; 
+  background-image: linear-gradient(#cccccc, rgb(80, 68, 68));
+      margin-left: 19.3px;
+   padding-top: -10px;
+   height:100%;
+   padding: 5px;
+   border-radius: 5px;
+ 
+}
+  
+}
+
+@media only screen and (max-width: 360px) {
+audio{
+  height: 35px;
+ 
+   
+}   
+}
+
+@media only screen and (max-width: 360px) {
+.capa{
+    display: none;
+    margin:41%;
+    margin-bottom: 10%;
+    margin-top:10% ;
+    width:200px;
+    height:200px;
+    border-radius: 18px;
+    border: 1px solid gray; 
+    margin-left: 70px;
+}
+  
+}
+
+@media only screen and (max-width: 640px) {
+    .capa{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: flex-end; 
+        border: 1px solid gray; 
+        padding: 4px;
+        float: left;
+        margin-left: 18px;
+        margin-bottom:60%px;
+        widows: 190px;
+        height:240px;
+        border-radius: 18px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+footer{
+    widows: 100%;
+    height:10px;
+    background-color: rgb(55, 89, 90);
+    color:white;
+    text-align: center;
+    margin-right: 10px;
+}
+  
+}
+
+@media only screen and (max-width: 640px) {
+    footer{
+        margin-top:300px;
+        widows: 105%;
+        height:50px;
+        background-color: rgb(55, 89, 90);
+        text-align: center;
+        margin-right: 10px;
+    }
+      
+    }
+
+
+@media only screen and (max-width: 360px) {
+b{
+    display: inline-block;
+    font-size:10px;
+    text-align: start;
+    margin-right: 60px;
+   
+}
+  
+}
+
+@media only screen and (max-width: 640px) {
+    b{
+        display: inline-block;
+        font-size:10px;
+        text-align: start;
+        margin-right: 89px;
+       
+    }
+      
+}
